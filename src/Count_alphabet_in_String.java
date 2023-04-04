@@ -5,12 +5,12 @@ public class Count_alphabet_in_String {
         //import scanner class to input user value
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String Name:");
-        String name = sc.next();
+        String name = sc.nextLine();
         System.out.println("Enter Character need to be counted:");
         char a = sc.next().charAt(0);
         int total = 0;
         for (int i = 0; i < name.length(); i++)
-            //count index each character of string
+            //count index of each character of string
             //find the character
             if(name.charAt(i)==a){
                 //count total number of character

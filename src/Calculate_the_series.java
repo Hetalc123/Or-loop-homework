@@ -8,6 +8,7 @@ public class Calculate_the_series {
         double n = sc.nextDouble();
         double sum = 0;
         //code to be executed
+        System.out.println("Sum of the Series:");
         if (n > 0) {
             for (double i = 1; i <= n; i++) {
                 sum = sum + (1 / i);
