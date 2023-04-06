@@ -12,7 +12,7 @@ public class Fibonacci {
         System.out.println("Fibonacci Sequance till " + n + " as Below:");
 //Executing the code
         for (int i = b; i <=n ; ++i) {
-            System.out.print(a+"");
+            System.out.println(a+"");
             //it adds current number with number before
             int c = a+b;
             a=b;
